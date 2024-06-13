@@ -10,7 +10,7 @@ function Dalle() {
         <Link to="/dalle/">
           <img src={logo} alt="logo" className="w-28 object-contain" />
         </Link>
-        <Link to="/dalle/create-post" className="font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md">
+        <Link to="/dalle/create-post" className="font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md m-">
           Create
         </Link>
       </header>

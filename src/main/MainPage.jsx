@@ -3,7 +3,10 @@ import React, { useEffect } from 'react';
 import OpenAIV from '../assets/OpenAIV.mp4'
 import OpenAI from '../assets/OpenAI.jpeg'
 import flower from '../assets/flower2.jpg'
-
+import dalle1  from '../assets/dalle1.jpg'
+import dalle2 from '../assets/dalle2.jpeg'
+import dalle3 from '../assets/dalle3.jpeg'
+import dalle4 from '../assets/dalle4.jpg'
 import Footer from '../footer/Footer';
 import { Link } from 'react-router-dom';
 
@@ -127,7 +130,7 @@ function MainPage() {
             {/* Image Sample Card 1 */}
             <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
               <img
-                src="tt.jpg"
+                src={dalle1}
                 alt="Sample 1"
                 className="rounded-lg shadow-lg mb-4"
               />
@@ -135,7 +138,7 @@ function MainPage() {
             {/* Image Sample Card 2 */}
             <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
               <img
-                src="peppy2.jpg"
+                src={dalle2}
                 alt="Sample 2"
                 className="rounded-lg shadow-lg mb-4"
               />
@@ -143,7 +146,7 @@ function MainPage() {
             {/* Image Sample Card 3 */}
             <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
               <img
-                src="piz3.jpg"
+                src={dalle3}
                 alt="Sample 3"
                 className="rounded-lg shadow-lg mb-4"
               />
@@ -151,7 +154,7 @@ function MainPage() {
             {/* Image Sample Card 4 */}
             <div className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
               <img
-                src="piz2.jpg"
+                src={dalle4}
                 alt="Sample 4"
                 className="rounded-lg shadow-lg mb-4"
               />
