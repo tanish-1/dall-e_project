@@ -1,9 +1,9 @@
 // import './App.css'
 import { Route, Routes } from 'react-router-dom';
 
-import Footer from './footer/Footer';
+
 import MainPage from './main/MainPage';
-import Dalle from './dalle/Dalle';
+
 import { CreatePost } from './pages';
 
 const App = () => {
